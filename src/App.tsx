@@ -1,5 +1,5 @@
 import { GlobalStyle } from './styles/global'
-import { Home } from './components/Home'
+import { Home } from './pages/Home'
 
 export function App() {
   return (

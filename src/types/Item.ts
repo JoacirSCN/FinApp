@@ -1,4 +1,4 @@
-export interface Items {
+export interface Item {
   date: Date
   category: string
   title: string

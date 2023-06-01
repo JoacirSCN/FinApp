@@ -1,6 +1,6 @@
-import { Items } from '../types/items'
+import { Item } from '../types/Item'
 
-export const items: Items[] = [
+export const items: Item[] = [
   {
     date: new Date(2023, 5, 29),
     category: 'food',
@@ -20,7 +20,7 @@ export const items: Items[] = [
     value: 500,
   },
   {
-    date: new Date(2023, 5, 15),
+    date: new Date(2023, 4, 15),
     category: 'salary',
     title: 'Salário Iquine',
     value: 1800,
