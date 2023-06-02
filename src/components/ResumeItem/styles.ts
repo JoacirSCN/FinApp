@@ -9,8 +9,8 @@ export const Title = styled.div`
   color: #4ea8de;
   margin-bottom: 5px;
 `
-export const Info = styled.div`
+export const Info = styled.div<{ color?: string }>`
   text-align: center;
   font-weight: bold;
-  color: #fff;
+  color: ${(props) => props.color ?? '#fff'};
 `

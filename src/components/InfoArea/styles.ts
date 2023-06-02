@@ -23,7 +23,7 @@ export const MonthArrow = styled.div`
   cursor: pointer;
 `
 
-export const MonthTitle = styled.div`
+export const MonthTitle = styled.h4`
   flex: 1;
   text-align: center;
   color: #fff;
